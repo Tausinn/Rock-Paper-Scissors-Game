@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2f1e4;
+
+}
+
+h1{
+    text-align: center;
+    margin: 1rem;
+    background-color: #ad8350;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.container{
+    background-color: #bad9b5;
+    width: 35%;
+    height: auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 5px 5px 0px 0px hsl(0, 1%, 29%);
+   
+}
+
+button{
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    width: 40%;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    background-color: #eff7cf;
+    border: none;
+
+}
+button:hover{
+    background-color:hsl(72, 75%, 77%) ;
+}
+
+h2{
+    margin: 0.4rem;
+    padding: 0.4rem;
+    
+}
+
+p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #2a1a1f;
+    
+    
+}
+
+@media (max-width: 400px){
+    .container{
+        width: 90%;
+        padding: 1rem;
+    }
+    h2{
+        margin: 0.1rem;
+        padding: 0;
+    }
+    button{
+        margin: 0.2rem;
+        
+    }
+    p{
+        font-size: 1rem;
+        margin: 0.2rem;
+        padding: 0;
+    }
+   h1{
+    font-size: 2rem;
+   }
+}
+
+@media (max-width: 450px){
+    .container{
+        width: 90%;
+        padding: 1rem;
+    }
+    h2{
+        margin: 0.1rem;
+        padding: 0;
+    }
+    button{
+        margin: 0.2rem;
+        
+    }
+    p{
+        font-size: 1rem;
+        margin: 0.2rem;
+        padding: 0;
+    }
+   h1{
+    font-size: 2rem;
+   }
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 70%;
+    }
+}
+
+@media (max-width: 1200px){
+    .container{
+        width: 70%;
+    }
+}
